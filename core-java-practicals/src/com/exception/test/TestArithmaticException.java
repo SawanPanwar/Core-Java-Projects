@@ -7,7 +7,7 @@ public class TestArithmaticException {
 		try {
 			int a = 10;
 
-			int b = 2;
+			int b = 0;
 
 			System.out.println("**before**");
 

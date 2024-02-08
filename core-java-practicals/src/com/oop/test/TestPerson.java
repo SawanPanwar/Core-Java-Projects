@@ -9,6 +9,8 @@ public class TestPerson {
 
 		SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
 
+		String  str = "01-01-2024";
+		
 		Person p = new Person();
 
 		p.setFirstName("abc");
