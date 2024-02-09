@@ -7,7 +7,7 @@ public class TestFinally {
 		try {
 			int a = 10;
 
-			int b = 0;
+			int b = 2;
 
 			System.out.println("**before**");
 
@@ -18,6 +18,8 @@ public class TestFinally {
 		} catch (ArithmeticException e) {
 
 			System.out.println(e);
+
+			System.exit(0);
 
 		} finally {
 			System.out.println("finally block");
