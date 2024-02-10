@@ -51,7 +51,7 @@ public class TestCollection {
 		c1.retainAll(c2);
 
 		System.out.println("c1 after retainAll = " + c1);
-		
+
 		System.out.println("c1 size = " + c1.size());
 
 	}
