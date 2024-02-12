@@ -11,11 +11,17 @@ public class TestEmployeeEquals {
 
 		Employee e2 = new Employee(2, "pqr", 2000);
 
+		Employee e5 = new Employee(1, "abc", 1000);
+
 		List list = new ArrayList();
 		list.add(e1);
 		list.add(e2);
 
-		System.out.println(list.contains(e1));
+		System.out.println(list.contains(e5));
+		
+		list.remove(e5);
+		
+		System.out.println(list);
 
 	}
 
