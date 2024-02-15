@@ -8,7 +8,9 @@ public class TestEmpEquals {
 
 		Employee e2 = new Employee(1, "abc", 1000);
 
-		System.out.println("employee = " + e1.equals(e2));
+		String str = "abc";
+
+		System.out.println("employee = " + e1.equals(str));
 
 	}
 

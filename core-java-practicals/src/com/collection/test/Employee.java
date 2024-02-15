@@ -47,14 +47,15 @@ public class Employee {
 
 	@Override
 	public boolean equals(Object obj) {
-		System.out.println("in equals");
+		if (!(obj instanceof Employee)) {
+			return false;
+		}
 		Employee e = (Employee) obj;
 		boolean eq = this.id == e.id && this.name == e.name && this.salary == e.salary;
 		return eq;
 	}
 
 	public int hashCode() {
-		System.out.println("in hashCode");
 		String str = id + name + salary;
 		return str.hashCode();
 	}

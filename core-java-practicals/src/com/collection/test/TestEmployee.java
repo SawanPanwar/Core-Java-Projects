@@ -18,6 +18,10 @@ public class TestEmployee {
 		list.add(e1);
 		list.add(e2);
 
+		list.forEach(e -> {
+			System.out.println(e);
+		});
+
 		System.out.println("list => " + list);
 
 		System.out.println("========================================");
